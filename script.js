@@ -1,4 +1,3 @@
-import ConvertApi from '/node_modules/convertapi-js/dist/convertapi.js'
 
 const menu = document.querySelector('#menu');
 const textInput = document.querySelector("#textInput");
