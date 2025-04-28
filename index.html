@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/main-min.css">
+</head>
+<body>
+    <div id="bg" class="container-fluid min-vh-100 position-relative overflow-hidden z-2">
+        
+        <div id="pic1" class="pic border border-1 border-black border-opacity-75">
+            <div class="picture h-100 w-100 rounded rounded-2 border border-black border-opacity-75 object-fit-contain "></div>
+        </div>
+
+        <div id="text" class="display-5 border border-3 text-center center">
+
+            TEXT HERE
+        </div>
+        
+        <div id="pic2" class="pic border border-1 border-black border-opacity-75">
+            <div class="picture h-100 w-100 rounded rounded-2 border border-black border-opacity-75"></div>
+        </div>
+        
+        <div id="pic3" class="pic border border-1 border-black border-opacity-75">
+            <div class="picture h-100 w-100 rounded rounded-2 border border-black border-opacity-75"></div>
+        </div>
+    </div>
+
+    <div id="menu" class="container-fluid h-auto px-0 position-absolute bg-info top-100 start-0">
+        <div class="btn btn-outline-light vh-10 w-100 border-start-0 border-end-0 rounded-0 display-2 fw-bolder d-flex align-items-center justify-content-center">
+            <span class="w-100 h-100 text-center display-1 center">Menu</span>
+        </div>
+
+        <!-- MENU AREA TO CUSTOMIZE -->
+        <div id="info" class="visually-hidden bg-info-subtle vh-90 container-fluid px-0 d-flex flex-column justify-content-evenly align-items-center overflow-y-scroll">
+
+            <div class="section visually-hidden py-5 border-bottom border-4 border-white border-opacity-100 w-100 px-3 row w-100">
+                <div class="visually-hidden center flex-column col-4 h-100">
+                    <h2 class="display-6 fs-5 px-2">Txt Color</h2>
+                    <input class="color fs-4 rounded-6 w-50" type="color">
+                </div>
+                <div class="visually-hidden center flex-column col-4 h-100">
+                    <h2 class="display-6 fs-5 px-2">Txt Bg</h2>
+                    <input class="color fs-4 rounded-6 w-50" type="color">
+                </div>
+                <div class="visually-hidden center flex-column col-4 h-100">
+                    <h2 class="display-6 fs-5 px-2">Bg Color</h2>
+                    <input class="color fs-4 rounded-6 w-50" type="color">
+                </div>
+            </div>
+
+            <div id="textInput" class="section visually-hidden py-5 border-bottom border-4 border-white border-opacity-100 w-100 px-3">
+                <h2 class="display-6 fs-3">Text</h2>
+                <input class="fs-4 rounded-6 w-50" type="text">
+            </div>
+
+            <div class="section visually-hidden photo-input py-5 border-bottom border-4 border-white border-opacity-100 w-100 px-3">
+                <h2 class="display-6 fs-3">Image 1</h2>
+                <input class="imgInput fs-6" type="file">
+            </div>
+
+            <div class="section visually-hidden photo-input py-5 border-bottom border-4 border-white border-opacity-100 w-100 px-3">
+                <h2 class="display-6 fs-3">Image 2</h2>
+                <input class="imgInput fs-6" type="file">
+            </div>
+
+            <div class="section visually-hidden photo-input py-5 border-bottom border-4 border-white border-opacity-100 w-100 px-3">
+                <h2 class="display-6 fs-3">Image 3</h2>
+                <input class="imgInput fs-6" type="file">
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
