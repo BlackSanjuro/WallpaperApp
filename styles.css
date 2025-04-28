@@ -5,7 +5,7 @@
 
 #bg {
 
-    background: whitesmoke;
+    background: #F3B3C1;
 }
 
 .pic {
@@ -74,9 +74,16 @@
 
     color: rgb(112, 116, 119);
 }
+    
+.picture {
+
+    background-position: center;
+    background-size: cover;
+}
+
 
 #pic1 {
-
+    
     height: 20%;
     width: 40%;
 
@@ -84,6 +91,11 @@
     left: 15%;
 
     transform: rotate(-30deg);
+}
+
+#pic1 .picture {
+
+    background-image: url('./imagesforpromstuffs/IMG_0049.JPG');
 }
 
 #pic2 {
@@ -97,6 +109,12 @@
     transform: rotate(30deg);
 }
 
+
+#pic2 .picture {
+
+    background-image: url('./imagesforpromstuffs/IMG_1930.JPG');
+}
+
 #pic3 {
 
     height: 20%;
@@ -106,6 +124,12 @@
     left: 15%;
 
     transform: rotate(-25deg);
+}
+
+
+#pic3 .picture {
+
+    background-image: url('./imagesforpromstuffs/IMG_2736.JPG');
 }
 
 #text {
@@ -134,11 +158,6 @@
     height: 90vh;
 }
 
-.picture {
-
-    background-position: center;
-    background-size: cover;
-}
 
 .section {
 
